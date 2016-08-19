@@ -1,0 +1,55 @@
+<html ng-app="trMovies">
+
+<head>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/angular-ui/bower-ui-grid/master/ui-grid.min.css">
+</head>
+
+<body ng-cloak>
+
+    <nav class="nav navbar-default nav-inverser" class="container-fluid">
+        <div class="container-fluid">
+            <div class="nav-header">
+                <a href="#" class="navbar-brand">
+
+                </a>
+            </div>
+        </div>
+
+    </nav>
+
+    <div class="container">
+        <movie-List> </movie-List>
+    </div>
+
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-component-router/angular_1_router.js"></script>
+
+
+
+    <!--CDN-->
+    <script src="https://cdn.rawgit.com/angular-ui/bower-ui-grid/master/ui-grid.min.js"></script>
+    <!--End-->
+
+    <!--Component -->
+    <script src="tr-movies/module.js"></script>
+    <script src="tr-movies/movie-component.js"></script>
+    <!--End-->
+
+
+
+
+
+    <!--Services -->
+
+
+    <script src="\tr-movies\dataAccess.js"></script>
+
+
+    </script>
+    <!--End of Services -->
+</body>
+
+</html>
